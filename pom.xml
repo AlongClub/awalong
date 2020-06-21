@@ -29,6 +29,7 @@
     <modules>
         <module>eureka-server</module>
         <module>urp</module>
+        <module>file</module>
     </modules>
 
     <!-- Spring Cloud -->
