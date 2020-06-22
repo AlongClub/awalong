@@ -30,6 +30,7 @@
         <module>eureka-server</module>
         <module>urp</module>
         <module>file</module>
+        <module>API-Gateway</module>
     </modules>
 
     <!-- Spring Cloud -->
