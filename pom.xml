@@ -24,6 +24,7 @@
         <spring-cloud.version>Hoxton.SR5</spring-cloud.version>
         <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
         <spring-cloud-netflix.version>2.2.3.RELEASE</spring-cloud-netflix.version>
+        <aws.java.sdk.version>2.13.42</aws.java.sdk.version>
     </properties>
 
     <modules>
@@ -59,6 +60,13 @@
                 <artifactId>spring-cloud-netflix-eureka-server</artifactId>
                 <version>${spring-cloud-netflix.version}</version>
             </dependency>
+                <dependency>
+                    <groupId>software.amazon.awssdk</groupId>
+                    <artifactId>bom</artifactId>
+                    <version>${aws.java.sdk.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
         </dependencies>
 
     </dependencyManagement>
